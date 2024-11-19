@@ -1,25 +1,28 @@
 :root {
   --bg: #1d1e20;
-  --accent: rgb(255, 100, 0);
-  --primary: #7c7c88;
+  --accent: rgb(255, 110, 0);
+  --accent-dark: color-mix(in srgb, var(--accent) 60%, black 40%);
+  --primary: #a0a0a0;
   --text: white;
   --borderWidth: 2.5px;
 }
 html {
   scroll-behavior: smooth;
+  scrollbar-gutter: stable; /* Reserves space for the scrollbar */
 }
 * {
-  color: var(--text);
-  text-align: center;
   margin:0%;        
   box-sizing: border-box; 
 }
 body {
   background-color: var(--bg);
   font-family: Roboto;
+  text-align: Center;
+  color: var(--text);
 }
 h1, h2 {
   font-family: Orbitron;
+  color: var(--text);
 }
 header {
   margin: 3%;
@@ -60,7 +63,7 @@ nav a::before {
 }
 nav a:hover::before {
   height: 100%; /* Expands to cover the entire element's border */
-  background-color: var(--primary); /* Keeps the accent color */
+  background-color: var(--accent); /* Keeps the accent color */
 }
 nav a:hover {
   color: var(--bg); /* Changes text color when hovered */
@@ -78,31 +81,117 @@ nav a.active::before {
 
 /* Project Container */
 .container {
+  color: var(--text);
   display: flex;
   flex-wrap: wrap; /* Wrap to the next line if necessary */
   justify-content: center; /* Center boxes horizontally */
-  gap: 20px; /* Space between boxes */
-  margin-top: 20px;
+  gap: 1vw; /* Space between boxes */
+  margin-top: 1%;
 }
 
-/* Project Box */
-.box {
-  border: var(--borderWidth) solid var(--accent);
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  width: calc(33.333% - 40px); /* 3-across layout */
-  min-width: 250px; /* Minimum size for small screens */
-  background-color: var(--bg); /* Match background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add depth */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 
 /* Hover Effect */
 .box:hover {
-  transform: scale(1.05); /* Slightly enlarge */
+  transform: scale(1.04); /* Slightly enlarge */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow */
 }
+
+/* Box Container */
+.box {
+  color: var(--text);
+  display: flex;
+  flex-direction: column; /* Ensures content stacks vertically */
+  justify-content: space-between; /* Pushes footer to the bottom */
+  position: relative; /* Required for positioning */
+  border: var(--borderWidth) solid var(--accent);
+  border-radius: 10px;
+  padding: 20px;
+  width: calc(33.333% - 40px);
+  min-width: 250px;
+  background-color: var(--bg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+/* Footer Content at Bottom */
+.box-footer {
+  margin-top: 10px;
+  text-align: left;
+  color: var(--primary);
+}
+
+/* Tags Styling */
+.preview-tags {
+  list-style: none;
+  display: flex;
+  gap: 10px; /* Space between tags */
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  flex-wrap: wrap; /* Allows tags to wrap on small screens */
+}
+
+.preview-tags li {
+  background-color: var(--accent);
+  color: var(--text);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+/* For Home Page: Boxes in a Row */
+.homepage-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align boxes horizontally */
+  gap: 1vw; /* Space between boxes */
+}
+
+/* For Projects Page: Boxes Stacked Vertically */
+.projects-container {
+  display: flex;
+  flex-direction: column; /* Stack boxes vertically */
+  align-items: center; /* Center boxes horizontally */
+  justify-content: center; /* Center boxes vertically */
+  gap: 20px; /* Space between boxes */
+}
+
+.projects-container .box {
+  width: 50%;
+  min-width: 300px;
+}
+
+.box h2 {
+  margin-bottom: 10px;
+}
+
+/* Scroll Bar */
+/* Entire scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 8px; /* Height for horizontal scrollbars */
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Scrollbar thumb (scrolling element) */
+::-webkit-scrollbar-thumb {
+  background: var(--accent-dark); /* Accent color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent); /* Lighter accent on hover */
+}
+
 
 /* Responsive Design for Small Screens */
 @media (max-width: 1000px) {
@@ -111,13 +200,18 @@ nav a.active::before {
   }
   header {
     font-size: 4.5vw;
-}
-}
-
-.preview-image {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  object-fit: cover;
-  margin-bottom: 10px;
+  }
+  .container {
+    gap: 20px; /* Space between boxes */
+  }
+  ::-webkit-scrollbar {
+    width: 3px; /* Width of the scrollbar */
+    height: 3%; /* Height for horizontal scrollbars */
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--accent-dark); /* Accent color */
+  }
+  .projects-container .box {
+    width: 85%;
+  }
 }

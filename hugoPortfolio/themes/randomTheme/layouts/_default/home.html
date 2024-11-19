@@ -2,10 +2,27 @@
   <h1>Latest Projects</h1>
   <div class="container">
     {{ range first 3 (where .Site.RegularPages "Section" "project") }}
-    <div class="box">
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <a href="{{ .RelPermalink }}" class="box">
+      <!-- Title -->
+      <h2>{{ .LinkTitle }}</h2>
+
+      <!-- Summary -->
       <p>{{ .Summary }}</p>
-    </div>
+
+      <!-- Date and Read Time -->
+      <div class="box-footer">
+        <span class="preview-date">{{ .Date.Format "January 2, 2006" }}</span>
+        <span class="preview-read-time"> • {{ .ReadingTime }} min</span>
+        <!-- Tags -->
+        {{ with .Params.tags }}
+        <ul class="preview-tags">
+          {{ range . }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </a>
     {{ end }}
   </div>
 {{ end }}

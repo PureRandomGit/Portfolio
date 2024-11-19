@@ -1,11 +1,9 @@
 ---
-title: "Project 5"
+title: "ESP32 Super Mini Occupancy Sensor"
 date: 2024-11-19
-summary: "This is the first project."
-image: "/project3/bryce-canyon.jpg"
 tags:
-  - Robotics
-  - Coding
+  - ESPHome
+  - Home Assistant
 draft: false
 ---
-This is the detailed content for Project 1.
+A simple esp32 based occupancy detector using a low cost FSR.

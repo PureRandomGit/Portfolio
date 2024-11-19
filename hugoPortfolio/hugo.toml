@@ -2,3 +2,4 @@ baseURL = 'https://purerandom.dev/'
 languageCode = 'en-us'
 title = 'PureRandom.dev'
 theme = "randomTheme"  
+summaryLength = 10

@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1>Latest Projects</h1>
+  <div class="container">
+    {{ range first 3 (where .Site.RegularPages "Section" "project") }}
+    <div class="box">
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <p>{{ .Summary }}</p>
+    </div>
+    {{ end }}
+  </div>
+{{ end }}

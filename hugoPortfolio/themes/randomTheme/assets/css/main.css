@@ -1,0 +1,123 @@
+:root {
+  --bg: #1d1e20;
+  --accent: rgb(255, 100, 0);
+  --primary: #7c7c88;
+  --text: white;
+  --borderWidth: 2.5px;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  color: var(--text);
+  text-align: center;
+  margin:0%;        
+  box-sizing: border-box; 
+}
+body {
+  background-color: var(--bg);
+  font-family: Roboto;
+}
+h1, h2 {
+  font-family: Orbitron;
+}
+header {
+  margin: 3%;
+  padding: 1%;
+  font-size: 200%;
+}
+
+footer {
+  padding: 1%;
+}
+
+/* Nav Bar */
+nav {
+  padding: 2%;
+}
+nav a {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: Large;
+  margin: 1%;
+  padding: 0.5%;
+  position: relative;
+  display: inline-block;
+  overflow: hidden; /* Ensures expanding borders stay within the element */
+  transition: color 0.3s;
+}
+nav a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--borderWidth); /* Initial bottom border height */
+  background-color: var(--primary);
+  border-radius: 5px;
+  z-index: -1; /* Ensure it stays behind the text */
+  transition: height 0.3s ease, background-color 0.3s ease;
+}
+nav a:hover::before {
+  height: 100%; /* Expands to cover the entire element's border */
+  background-color: var(--primary); /* Keeps the accent color */
+}
+nav a:hover {
+  color: var(--bg); /* Changes text color when hovered */
+}
+
+nav a.active {
+  color: var(--accent); /* Orange text for the active link */
+}
+
+nav a.active::before {
+  background-color: var(--accent); /* Orange underline for the active link */
+}
+
+
+
+/* Project Container */
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap to the next line if necessary */
+  justify-content: center; /* Center boxes horizontally */
+  gap: 20px; /* Space between boxes */
+  margin-top: 20px;
+}
+
+/* Project Box */
+.box {
+  border: var(--borderWidth) solid var(--accent);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: calc(33.333% - 40px); /* 3-across layout */
+  min-width: 250px; /* Minimum size for small screens */
+  background-color: var(--bg); /* Match background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.box:hover {
+  transform: scale(1.05); /* Slightly enlarge */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 1000px) {
+  .box {
+    width: 90%; /* Full width on small screens */
+  }
+  header {
+    font-size: 4.5vw;
+}
+}
+
+.preview-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}

@@ -1,4 +1,4 @@
-baseURL = 'https://purerandom.dev/'
+baseURL = 'https://purerandomgit.github.io/Portfolio/'
 languageCode = 'en-us'
 title = 'PureRandom.dev'
 theme = "randomTheme"  

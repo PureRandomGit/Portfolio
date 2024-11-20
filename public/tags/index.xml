@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on PureRandom.dev</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/Portfolio/tags/</link>
     <description>Recent content in Tags on PureRandom.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ESPHome</title>
-      <link>http://localhost:1313/tags/esphome/</link>
+      <link>http://localhost:1313/Portfolio/tags/esphome/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/esphome/</guid>
+      <guid>http://localhost:1313/Portfolio/tags/esphome/</guid>
       <description></description>
     </item>
     <item>
       <title>Home Assistant</title>
-      <link>http://localhost:1313/tags/home-assistant/</link>
+      <link>http://localhost:1313/Portfolio/tags/home-assistant/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/home-assistant/</guid>
+      <guid>http://localhost:1313/Portfolio/tags/home-assistant/</guid>
       <description></description>
     </item>
     <item>
       <title>Red</title>
-      <link>http://localhost:1313/tags/red/</link>
+      <link>http://localhost:1313/Portfolio/tags/red/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/red/</guid>
+      <guid>http://localhost:1313/Portfolio/tags/red/</guid>
       <description></description>
     </item>
     <item>
       <title>Coding</title>
-      <link>http://localhost:1313/tags/coding/</link>
+      <link>http://localhost:1313/Portfolio/tags/coding/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/coding/</guid>
+      <guid>http://localhost:1313/Portfolio/tags/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Robotics</title>
-      <link>http://localhost:1313/tags/robotics/</link>
+      <link>http://localhost:1313/Portfolio/tags/robotics/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/robotics/</guid>
+      <guid>http://localhost:1313/Portfolio/tags/robotics/</guid>
       <description></description>
     </item>
     <item>
       <title>Green</title>
-      <link>http://localhost:1313/tags/green/</link>
+      <link>http://localhost:1313/Portfolio/tags/green/</link>
       <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/green/</guid>
+      <guid>http://localhost:1313/Portfolio/tags/green/</guid>
       <description></description>
     </item>
   </channel>

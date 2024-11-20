@@ -1,14 +1,17 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+<div class="content">
 
+  <!-- Title -->
+  <h1>{{ .Title }}</h1>
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+
+
+  <!-- Date -->
   {{ $dateMachine := .Date | time.Format "2006-01-02" }} <!-- ISO 8601 without time -->
   {{ $dateHuman := .Date | time.Format "January 2, 2006" }} <!-- Human-readable format -->
   <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
 
-  <div class="content">
-    {{ .Content }}
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
-  </div>
+  <!-- Content -->
 
-  
+</div>
 {{ end }}

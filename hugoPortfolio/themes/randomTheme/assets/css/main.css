@@ -19,6 +19,8 @@ body {
   font-family: Roboto;
   text-align: Center;
   color: var(--text);
+  text-decoration: none;
+
 }
 h1, h2 {
   font-family: Orbitron;
@@ -77,7 +79,67 @@ nav a.active::before {
   background-color: var(--accent); /* Orange underline for the active link */
 }
 
+/* Container for Tags */
+.tags-container {
+  text-align: center; /* Centers the entire tags block */
+  margin-top: 20px;
+}
 
+/* Label for Tags (e.g., "Tags:") */
+.tags-label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+/* Tags List */
+.tags-list {
+  list-style: none; /* Remove default bullets */
+  display: inline-flex; /* Center tags horizontally */
+  gap: 10px; /* Space between tags */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  flex-wrap: wrap; /* Allow tags to wrap on small screens */
+}
+
+/* Individual Tag */
+.tag {
+  background-color: var(--accent); /* Accent color for tags */
+  color: var(--text); /* Text color */
+  padding: 5px 10px; /* Padding inside tags */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 0.9rem; /* Adjust font size */
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+
+}
+
+/* Tag Links */
+.tag a {
+  color: var(--text); /* Text inherits tag color */
+  text-decoration: none;
+}
+
+.tag a:hover {
+  text-decoration: underline; /* Optional hover effect */
+}
+
+
+.content {
+  border-radius: 10px;
+  padding: 20px;
+  width: 70%;
+  min-width: 250px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: left;
+  margin: auto;
+}
+
+.content h1 {
+  text-align: center;
+}
 
 /* Project Container */
 .container {

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coding on PureRandom.dev</title>
-    <link>http://localhost:1313/Portfolio/tags/coding/</link>
+    <link>http://localhost:1313/tags/coding/</link>
     <description>Recent content in Coding on PureRandom.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/Portfolio/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project 3</title>
-      <link>http://localhost:1313/Portfolio/project/project3/</link>
+      <link>http://localhost:1313/project/project3/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Portfolio/project/project3/</guid>
+      <guid>http://localhost:1313/project/project3/</guid>
       <description>This is the 3rd project.</description>
     </item>
   </channel>

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="search-container">
+  <h1>{{ .Title }}</h1>
+  <div class="search-content">
+    {{ range .Site.RegularPages }}
+    <div class="search-item">
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <p>{{ .Summary }}</p>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

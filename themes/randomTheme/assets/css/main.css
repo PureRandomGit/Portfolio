@@ -2,7 +2,7 @@
   --bg: #1d1e20;
   --accent: rgb(255, 110, 0);
   --accent-dark: color-mix(in srgb, var(--accent) 60%, black 40%);
-  --primary: #a0a0a0;
+  --primary: #acacac;
   --text: white;
   --borderWidth: 2.5px;
 }
@@ -10,6 +10,15 @@ html {
   scroll-behavior: smooth;
   scrollbar-gutter: stable; /* Reserves space for the scrollbar */
 }
+hr {
+  margin-bottom: 1em;
+  background-color: var(--accent);
+  height: 4px;
+  border-radius: 10px;
+  color: var(--accent);
+  border: 0px;
+}
+
 * {
   margin:0%;        
   box-sizing: border-box; 
@@ -19,8 +28,6 @@ body {
   font-family: Roboto;
   text-align: Center;
   color: var(--text);
-  text-decoration: none;
-
 }
 h1, h2 {
   font-family: Orbitron;
@@ -135,10 +142,16 @@ nav a.active::before {
   text-decoration: none;
   text-align: left;
   margin: auto;
+  font-size: large;
+  line-height: 1.5;
 }
 
 .content h1 {
   text-align: center;
+}
+.content p {
+  color: var(--primary);
+  margin-bottom: 1em;
 }
 
 /* Project Container */
@@ -254,6 +267,12 @@ nav a.active::before {
   background: var(--accent); /* Lighter accent on hover */
 }
 
+time {
+  text-align: center;
+  color: var(--primary);
+}
+
+
 
 /* Responsive Design for Small Screens */
 @media (max-width: 1000px) {
@@ -277,3 +296,4 @@ nav a.active::before {
     width: 85%;
   }
 }
+

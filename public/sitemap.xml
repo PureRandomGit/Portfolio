@@ -11,28 +11,25 @@
     <loc>http://localhost:1313/tags/home-assistant/</loc>
     <lastmod>2024-11-19T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/sensor/</loc>
+    <lastmod>2024-11-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/project/project4/</loc>
     <lastmod>2024-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/red/</loc>
-    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/coding/</loc>
-    <lastmod>2024-11-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/project/project3/</loc>
-    <lastmod>2024-11-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/robotics/</loc>
     <lastmod>2024-11-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/green/</loc>
     <lastmod>2024-11-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/project/project2/</loc>
+    <lastmod>2024-11-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/red/</loc>
     <lastmod>2024-11-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/project/project1/</loc>

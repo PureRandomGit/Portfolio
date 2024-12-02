@@ -1,6 +1,6 @@
-+++
-title = 'Contact'
-draft = false
-+++
+---
+title: 'Contact'
+draft: false
+---
 
 Email: test@test.com

@@ -113,7 +113,7 @@ nav a.active::before {
 /* Individual Tag */
 .tag {
   background-color: var(--accent); /* Accent color for tags */
-  color: var(--text); /* Text color */
+  color: var(--bg); /* Text color */
   padding: 5px 10px; /* Padding inside tags */
   border-radius: 5px; /* Rounded corners */
   font-size: 0.9rem; /* Adjust font size */
@@ -213,10 +213,11 @@ nav a.active::before {
 
 .preview-tags li {
   background-color: var(--accent);
-  color: var(--text);
+  color: var(--bg);
   padding: 5px 10px;
   border-radius: 5px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 /* For Home Page: Boxes in a Row */

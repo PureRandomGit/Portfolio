@@ -96,7 +96,7 @@ nav a.active::before {
 .tags-label {
   font-size: 1rem;
   font-weight: bold;
-  color: var(--primary);
+  color: var(--bg);
   margin-bottom: 10px;
 }
 
@@ -124,8 +124,9 @@ nav a.active::before {
 
 /* Tag Links */
 .tag a {
-  color: var(--text); /* Text inherits tag color */
+  color: var(--bg); /* Text inherits tag color */
   text-decoration: none;
+  font-weight: 500;
 }
 
 .tag a:hover {
@@ -294,6 +295,9 @@ time {
   }
   .projects-container .box {
     width: 85%;
+  }
+  .content {
+    width: 90%;
   }
 }
 

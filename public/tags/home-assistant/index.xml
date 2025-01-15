@@ -6,28 +6,28 @@
     <description>Recent content in Home Assistant on PureRandom.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/home-assistant/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ESP32 Super Mini Occupancy Sensor</title>
-      <link>http://localhost:1313/project/project5/</link>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/project5/</guid>
-      <description>&lt;p&gt;The ESP32-C3 Super Mini is a compact, cost-effective solution for IoT projects, and its low power consumption makes it ideal for continuous monitoring applications. When paired with a Force Sensitive Resistor (FSR) and ESPHome, it can be transformed into a reliable bed occupancy detector.&#xA;Why Use an FSR for Bed Occupancy?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Smart Pot V2</title>
-      <link>http://localhost:1313/project/project4/</link>
-      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/project4/</guid>
-      <description>&lt;p&gt;Smart pot version 2. The first one sucked.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Smart Blinds V1</title>
       <link>http://localhost:1313/project/project3/</link>
-      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/project3/</guid>
-      <description>&lt;p&gt;Smart blinds work but slow, womp womp.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;bryce-canyon.jpg&#34; alt=&#34;Bryce Canyon National Park&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Smart blinds version 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Smart Pot V1</title>
+      <link>http://localhost:1313/project/project2/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/project2/</guid>
+      <description>&lt;p&gt;Smart pot version 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ESP32 Super Mini Occupancy Sensor</title>
+      <link>http://localhost:1313/project/project1/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/project1/</guid>
+      <description>&lt;p&gt;The ESP32-C3 Super Mini is a compact, cost-effective solution for IoT projects, and its low power consumption makes it ideal for continuous monitoring applications. When paired with a Force Sensitive Resistor (FSR) and ESPHome, it can be transformed into a reliable bed occupancy detector.&#xA;Why Use an FSR for Bed Occupancy?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

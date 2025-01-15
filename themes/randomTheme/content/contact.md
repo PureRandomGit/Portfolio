@@ -3,4 +3,4 @@ title: 'Contact'
 draft: false
 ---
 
-Email: test@test.com
+Email: contact@purerandom.dev

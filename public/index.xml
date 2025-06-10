@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PureRandom.dev</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on PureRandom.dev</description>
+    <image>
+      <title>PureRandom.dev</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.7</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install / Update PaperMod</title>
+      <link>http://localhost:1313/posts/papermod/papermod-installation/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/papermod/papermod-installation/</guid>
+      <description>Read aboout Install and Update instructions and sampled configuration templates</description>
+    </item>
+    <item>
+      <title>Features / Mods</title>
+      <link>http://localhost:1313/posts/papermod/papermod-features/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/papermod/papermod-features/</guid>
+      <description>Learn About All Features in PaperMod</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide For L2</title>
+      <link>http://localhost:1313/posts/markdown-syntax.fr/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/markdown-syntax.fr/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide For RTL</title>
+      <link>http://localhost:1313/posts/markdown-syntax.fa/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/markdown-syntax.fa/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>http://localhost:1313/posts/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/markdown-syntax/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    <item>
+      <title>Code Syntax Guide</title>
+      <link>http://localhost:1313/posts/code_syntax/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/code_syntax/</guid>
+      <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
+    </item>
+    <item>
+      <title>Rich Content and Shortcodes</title>
+      <link>http://localhost:1313/posts/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/rich-content/</guid>
+      <description>A brief description of Hugo Shortcodes</description>
+    </item>
+    <item>
+      <title>Math Typesetting</title>
+      <link>http://localhost:1313/posts/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/math-typesetting/</guid>
+      <description>A brief guide to setup KaTeX</description>
+    </item>
+    <item>
+      <title>Emoji Support</title>
+      <link>http://localhost:1313/posts/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/emoji-support/</guid>
+      <description>Guide to emoji usage in Hugo</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/2222_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2222_index/</guid>
+      <description>&lt;svg class=&#34;theme-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;-10 5 540 500&#34; width=&#34;500&#34; height=&#34;500&#34;  overflow=&#34;hidden&#34;&gt;
+
+  &lt;defs&gt;
+    &lt;clipPath id=&#34;clip-left&#34; clipPathUnits=&#34;userSpaceOnUse&#34;&gt;
+      &lt;rect x=&#34;0&#34; y=&#34;-20&#34; width=&#34;256&#34; height=&#34;550&#34;/&gt;
+    &lt;/clipPath&gt;
+    &lt;clipPath id=&#34;clip-right&#34; clipPathUnits=&#34;userSpaceOnUse&#34;&gt;
+      &lt;rect x=&#34;255.8&#34; y=&#34;-20&#34; width=&#34;500&#34; height=&#34;550&#34;/&gt;
+    &lt;/clipPath&gt;
+  &lt;/defs&gt;
+
+  &lt;path
+    d=&#34;m332 19 3.4 1.9c35.6 21 60.4 55.2 71.3 94.8 5.8 22.8 6.5 47.4 1.3 70.3l-.9 3.9q-7.6 30.3-25.5 56.2c-6.6 9.7-11.3 17.8-9.6 29.9 1.9 7.6 7.7 12 14 16a99 99 0 0 0 40.7 10.7l2.3.2 11.9.8c17.2 1 30.7 6.4 43 19 9.4 11.1 13.8 24.8 13.4 39.3a58 58 0 0 1-18.8 38.2c-18.5 14-36.5 14-58.6 11q-10.6-1.4-21.2-3.6c-2.7-.7-2.7-.7-5.7-.6l2.3 1.7c14.4 10.6 26.3 20.7 29.7 39.3 2 17.4-3 32.9-13.7 46.8a54 54 0 0 1-33.3 17.4c-26.1.7-44.5-11.3-63.4-28.8L310 479l-1.7-1.7A212 212 0 0 1 287 454l-1.8-2.3q-12.2-15.9-24-32.1l-1.6-2.3-1.4-2-1.2-1.3h-2l-4.2 5.3-1.4 1.7-13.4 18.2q-6.3 8.5-13 16.8l-2.3 2.9c-17.5 21.4-41.6 46.8-69.7 53.1a62 62 0 0 1-45.2-12.3 61 61 0 0 1-19.2-43A49 49 0 0 1 97 426l1.4-2c5.6-7 13.3-11.9 20.6-17l-2 .3-10 1.7-2.3.4c-25.4 4.2-48.2 7.2-70.4-8.6A56 56 0 0 1 15 365a55.7 55.7 0 0 1 58.4-61.4l14.3-1c15.9-1.3 35-5 46.8-16.8 4.7-5.7 6.4-11 6.1-18.4-1.8-9.8-7.8-18.4-13.4-26.5A157 157 0 0 1 102 175l-.6-3.2c-4.3-37 5.2-77 27.6-106.8l1.2-1.6Q146.6 40.6 170 25l1.8-1.2c15-9.9 31.8-16.5 49.2-20.8l3.9-1c35.8-7.9 75.4-.8 107.1 17&#34;
+    clip-path=&#34;url(#clip-left)&#34;
+    fill=&#34;#FFFFFF&#34;
+    stroke=&#34;#000000&#34;
+    stroke-width=&#34;20&#34;
+    stroke-linejoin=&#34;round&#34;
+  /&gt;
+
+  &lt;path
+    d=&#34;m332 19 3.4 1.9c35.6 21 60.4 55.2 71.3 94.8 5.8 22.8 6.5 47.4 1.3 70.3l-.9 3.9q-7.6 30.3-25.5 56.2c-6.6 9.7-11.3 17.8-9.6 29.9 1.9 7.6 7.7 12 14 16a99 99 0 0 0 40.7 10.7l2.3.2 11.9.8c17.2 1 30.7 6.4 43 19 9.4 11.1 13.8 24.8 13.4 39.3a58 58 0 0 1-18.8 38.2c-18.5 14-36.5 14-58.6 11q-10.6-1.4-21.2-3.6c-2.7-.7-2.7-.7-5.7-.6l2.3 1.7c14.4 10.6 26.3 20.7 29.7 39.3 2 17.4-3 32.9-13.7 46.8a54 54 0 0 1-33.3 17.4c-26.1.7-44.5-11.3-63.4-28.8L310 479l-1.7-1.7A212 212 0 0 1 287 454l-1.8-2.3q-12.2-15.9-24-32.1l-1.6-2.3-1.4-2-1.2-1.3h-2l-4.2 5.3-1.4 1.7-13.4 18.2q-6.3 8.5-13 16.8l-2.3 2.9c-17.5 21.4-41.6 46.8-69.7 53.1a62 62 0 0 1-45.2-12.3 61 61 0 0 1-19.2-43A49 49 0 0 1 97 426l1.4-2c5.6-7 13.3-11.9 20.6-17l-2 .3-10 1.7-2.3.4c-25.4 4.2-48.2 7.2-70.4-8.6A56 56 0 0 1 15 365a55.7 55.7 0 0 1 58.4-61.4l14.3-1c15.9-1.3 35-5 46.8-16.8 4.7-5.7 6.4-11 6.1-18.4-1.8-9.8-7.8-18.4-13.4-26.5A157 157 0 0 1 102 175l-.6-3.2c-4.3-37 5.2-77 27.6-106.8l1.2-1.6Q146.6 40.6 170 25l1.8-1.2c15-9.9 31.8-16.5 49.2-20.8l3.9-1c35.8-7.9 75.4-.8 107.1 17&#34;
+    clip-path=&#34;url(#clip-right)&#34;
+    fill=&#34;#000000&#34;
+    stroke=&#34;#FFFFFF&#34;
+    stroke-width=&#34;20&#34;
+    stroke-linejoin=&#34;round&#34;
+  /&gt;
+
+  &lt;circle
+    cx=&#34;310&#34;
+    cy=&#34;170&#34;
+    r=&#34;20&#34;
+    fill=&#34;white&#34;
+  /&gt;
+
+  &lt;circle
+    cx=&#34;205&#34;
+    cy=&#34;170&#34;
+    r=&#34;20&#34;
+    fill=&#34;rgb()&#34;
+  /&gt;
+
+&lt;/svg&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;about me&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

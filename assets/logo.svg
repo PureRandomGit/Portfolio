@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="900"
+   viewBox="0 0 900 900"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="1.2966667"
+     inkscape:cx="450"
+     inkscape:cy="264.91003"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 52.734px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <path
+     class="cls-1"
+     d="m 450,22.852 c 86.133,0 237.3,47.461 242.578,237.3 0,79.1 -33.4,131.836 -58.008,172.266 -24.33762,34.26033 -37.03846,104.642 45.7,117.773 79.1,8.789 165.235,0 163.477,91.407 -1.758,91.407 -138.864,49.222 -156.442,42.191 -17.578,-7.031 -84.375,-22.851 -33.4,35.156 14.063,12.3 107.227,68.555 47.461,126.563 C 641.6,903.516 578.319,838.477 553.71,813.867 529.101,789.257 488.571,693.529 450,696.094"
+     id="path1"
+     sodipodi:nodetypes="ccccsscssc" />
+  <path
+     class="cls-2"
+     d="m 451.758,22.852 c -86.133,0 -237.3,47.461 -242.578,237.3 0,79.1 33.4,131.836 58.008,172.266 18.93916,33.48913 37.80967,102.32837 -45.7,117.773 -79.1,8.789 -165.234,0 -163.476,91.407 1.758,91.407 138.867,49.218 156.445,42.187 17.578,-7.031 84.375,-22.851 33.4,35.156 -14.063,12.3 -107.227,68.555 -47.461,126.563 59.766,58.008 123.047,-7.031 147.656,-31.641 24.609,-24.61 59.1,-117.2 103.711,-117.773"
+     id="path2"
+     sodipodi:nodetypes="ccccsscssc" />
+  <circle
+     class="cls-3"
+     cx="363.875"
+     cy="290.047"
+     r="43.937"
+     id="circle2" />
+  <circle
+     cx="536.141"
+     cy="290.047"
+     r="43.953"
+     id="circle3" />
+</svg>

@@ -2,29 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on PureRandom.dev</title>
-    <link>https://purerandom.dev/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on PureRandom.dev</description>
     <image>
       <title>PureRandom.dev</title>
-      <url>https://purerandom.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://purerandom.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.7</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://purerandom.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smart Home</title>
+      <link>http://localhost:1313/categories/smart-home/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/smart-home/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Syntax</title>
-      <link>https://purerandom.dev/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://purerandom.dev/categories/syntax/</guid>
+      <link>http://localhost:1313/categories/syntax/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/syntax/</guid>
       <description></description>
     </item>
     <item>
       <title>Themes</title>
-      <link>https://purerandom.dev/categories/themes/</link>
+      <link>http://localhost:1313/categories/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://purerandom.dev/categories/themes/</guid>
+      <guid>http://localhost:1313/categories/themes/</guid>
       <description></description>
     </item>
   </channel>

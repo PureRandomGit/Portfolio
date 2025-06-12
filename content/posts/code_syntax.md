@@ -9,6 +9,8 @@ categories: ["themes", "syntax"]
 series: ["Themes Guide"]
 ShowToc: true
 TocOpen: true
+draft: true
+
 social:
   fediverse_creator: "@adityatelange@mastodon.social"
 ---

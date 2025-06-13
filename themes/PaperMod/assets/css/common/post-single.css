@@ -11,6 +11,7 @@
 .post-description {
     margin-top: 10px;
     margin-bottom: 5px;
+    font-family: Roboto;
 }
 
 .post-meta,
@@ -20,6 +21,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    font-family: Roboto;
 }
 
 .post-meta .i18n_list li {
@@ -98,10 +100,13 @@
 .post-content ol,
 .post-content ul {
     padding-inline-start: 20px;
+    font-family: Roboto;
+    font-weight: normal;
 }
 
 .post-content li {
     margin-top: 5px;
+    
 }
 
 .post-content li p {
@@ -408,3 +413,8 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+footer,p {
+    font-family: Roboto;
+}
+

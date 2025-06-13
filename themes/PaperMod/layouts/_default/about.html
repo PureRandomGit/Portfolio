@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+    <h3>Hi, I'm Samuel.</h1>
+        <br>
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+    {{ partial "social_icons.html" (dict "align" "left" "Site" .Site) }}    
+{{ end }}

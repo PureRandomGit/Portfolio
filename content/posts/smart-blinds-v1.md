@@ -4,7 +4,7 @@ date: "2025-01-01"
 description: "Cheap, simple and effective smart blinds made from and old IKEA roller shades and a few electronic components."
 summary: "Cheap, simple and effective smart blinds made from and old IKEA roller shades and a few electronic components."
 tags: ["esphome", "esp32", "home assistant"]
-categories: ["Smart Home", "syntax"]
+categories: ["Smart Home"]
 ---
 
 ---
@@ -14,10 +14,10 @@ I wanted an automated blind solution that wouldn't rely on cloud services or exp
 ## Hardware
 The smart blind consists of four main components:
 
-- **28BYJ-48 stepper motor**
-- **ULN2003 stepper motor driver board**
-- **ESP32 microcontroller**
-- **IKEA roller shade**
+- 28BYJ-48 stepper motor
+- ULN2003 stepper motor driver board
+- ESP32 microcontroller
+- IKEA roller shade
 
 I chose these because they were very cheap off of Amazon or Aliexpress and because the ULN2003 was supported by Esphome's stepper component which I was planning on using to program the esp32.
 

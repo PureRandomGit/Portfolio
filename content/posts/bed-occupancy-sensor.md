@@ -2,7 +2,7 @@
 title: "Bed Occupancy Sensor"
 date: "2025-01-01"
 description: "Low cost bed occupancy sensor made with an esp32-c3 super mini and a $10 resistor."
-summary: "CLow cost bed occupancy sensor made with an esp32-c3 super mini and a $10 resistor."
+summary: "Low cost bed occupancy sensor made with an esp32-c3 super mini and a $10 resistor."
 tags: ["esphome", "esp32", "home assistant"]
 categories: ["Smart Home"]
 cover:

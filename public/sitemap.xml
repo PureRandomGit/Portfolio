@@ -36,14 +36,6 @@
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/emoji/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/privacy/</loc>
-  </url><url>
     <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
   </url>
 </urlset>

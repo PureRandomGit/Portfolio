@@ -9,10 +9,17 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.147.7</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/home-assistant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zigbee Smart Pot</title>
+      <link>http://localhost:1313/posts/zigbee-smart-pot/</link>
+      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/zigbee-smart-pot/</guid>
+      <description>3D-Printed, self-watering Smart Pot controlled via Zigbee!</description>
+    </item>
     <item>
       <title>Bed Occupancy Sensor</title>
       <link>http://localhost:1313/posts/bed-occupancy-sensor/</link>

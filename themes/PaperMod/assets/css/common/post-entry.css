@@ -39,8 +39,14 @@
     padding: var(--gap);
     background: var(--entry);
     border-radius: var(--radius);
-    transition: transform 0.1s;
-    border: 1px solid var(--border);
+    transition: transform 0.1s, border-color 0.15s ease;
+    border: 3px solid var(--tertiary);
+    background: transparent; /* Add this line */
+}
+
+.post-entry:hover {
+    transition: transform 0.1s, border-color 0.15s ease;
+    border-color: var(--theme-op);
 }
 
 .post-entry:active {

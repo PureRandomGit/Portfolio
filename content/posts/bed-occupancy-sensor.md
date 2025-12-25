@@ -12,9 +12,7 @@ cover:
 
 ---
 
-One of the common frustrations with smart home automation is when routines trigger at inconvenient or unintended times. For example, I have daily morning and evening automations that activate at fixed times, regardless of whether anyone is actually in bed. This often means the routines either run when no one is in bed or too late after someone has already settled in, forcing me to trigger them manually.
 
-To solve this, I implemented an inexpensive and reliable bed occupancy sensor. Using a compact ESP32-C3 Super Mini board combined with a long Force Sensitive Resistor (FSR), I implimented a cheap and reliable solution to detect when someone is in bed. This allows me to run my routines exactly when I want them as well as new automations such as turning on the LED strip under my bed if I get up during the night.
 
 ## Hardware
 

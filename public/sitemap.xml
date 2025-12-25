@@ -3,91 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/esp32/</loc>
-    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/home-assistant/</loc>
-    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/duck-launcher/</loc>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/projects/</loc>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/smart-home/</loc>
-    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/robotics/</loc>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/zigbee/</loc>
-    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/zigbee-smart-pot/</loc>
-    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/bed-occupancy-sensor/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/esp32/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/esphome/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/home-assistant/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/smart-blinds-v1/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/code/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/code_syntax/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/gist/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/syntax/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/smart-home/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>

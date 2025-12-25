@@ -9,29 +9,22 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.147.7</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/categories/projects/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/projects/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Smart Home</title>
       <link>http://localhost:1313/categories/smart-home/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/smart-home/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Syntax</title>
-      <link>http://localhost:1313/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/syntax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Themes</title>
-      <link>http://localhost:1313/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/themes/</guid>
       <description></description>
     </item>
   </channel>

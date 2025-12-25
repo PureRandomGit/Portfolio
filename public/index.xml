@@ -9,16 +9,16 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.147.7</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Zigbee Smart Pot</title>
-      <link>http://localhost:1313/posts/zigbee-smart-pot/</link>
-      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/zigbee-smart-pot/</guid>
-      <description>3D-Printed, self-watering Smart Pot controlled via Zigbee!</description>
+      <title>Duck Launcher</title>
+      <link>http://localhost:1313/posts/duck-launcher/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/duck-launcher/</guid>
+      <description>Final project for UCF EGN 1006C.</description>
     </item>
     <item>
       <title>Bed Occupancy Sensor</title>
@@ -33,41 +33,6 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/smart-blinds-v1/</guid>
       <description>Cheap, simple and effective smart blinds made from and old IKEA roller shades and a few electronic components.</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Code Syntax Guide</title>
-      <link>http://localhost:1313/posts/code_syntax/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/code_syntax/</guid>
-      <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Rich Content and Shortcodes</title>
-      <link>http://localhost:1313/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rich-content/</guid>
-      <description>A brief description of Hugo Shortcodes</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>http://localhost:1313/posts/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/math-typesetting/</guid>
-      <description>A brief guide to setup KaTeX</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/emoji-support/</guid>
-      <description>Guide to emoji usage in Hugo</description>
     </item>
     <item>
       <title>About</title>

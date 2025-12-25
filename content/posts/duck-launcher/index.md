@@ -2,7 +2,7 @@
 title: "Duck Launcher"
 date: "2025-11-21"
 description: "Final project for UCF EGN 1006C."
-summary: "How we made the highest scoring duck launcher."
+summary: "Designing and programming a duck-launching robot for UCF's EGN 1006C"
 tags: ["Robotics"]
 categories: ["Projects"]
 cover:

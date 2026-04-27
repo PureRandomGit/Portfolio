@@ -1,0 +1,196 @@
+<style>
+  .gallery-grid {
+      display: grid;
+      /* Default: as many 240px columns as will fit */
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 20px;
+      margin: 2rem 0;
+      max-width: 100%;
+  }
+
+  /* When the screen is smaller than ~540px, force exactly 2 columns */
+  @media (max-width: 540px) {
+      .gallery-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px; /* Optional: slightly smaller gap for mobile phones */
+      }
+  }
+
+  .gallery-img {
+      width: 100%;
+      aspect-ratio: 1/1; 
+      object-fit: cover;
+      border-radius: 12px; 
+      border: none; 
+      cursor: pointer;
+      /* Default shadow for light mode (black tint) */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  /* When the site is in dark mode (the <body> gets the .dark class in PaperMod), 
+     we override the shadow to use a faint white tint instead. */
+  .dark .gallery-img {
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.15);
+  }
+
+  .gallery-img:hover {
+      transform: scale(1.03); 
+      /* Make shadow slightly larger on hover */
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .dark .gallery-img:hover {
+      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.25);
+  }
+
+  #lightbox {
+      border: none;
+      padding: 0;
+      max-width: 90vw;
+      max-height: 90vh;
+      background: var(--theme);
+      color: var(--primary);
+      /* Lightbox shadow in light mode */
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+  }
+
+  .dark #lightbox {
+      /* Lightbox shadow in dark mode */
+      box-shadow: 0 10px 40px rgba(255, 255, 255, 0.15);
+  }
+
+  #lightbox::backdrop {
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(3px);
+  }
+
+  .lightbox-content {
+      margin-top: 0px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      margin-bottom: 0px;
+      max-height: 90vh;
+  }
+
+  #lightbox-img {
+      margin-top: 0px;
+      margin-bottom: 0px;;
+      max-width: 100%;
+      max-height: 80vh;
+      object-fit: contain;
+      display: block;
+      border-radius: 0;
+  }
+
+  #lightbox-desc {
+      padding: 5px 5px;
+      font-size: 1.3rem;
+      text-align: center;
+      background: var(--theme);
+      border-radius: 0px 0px 8px 8px;
+      width: calc(100% - 4px);
+      height: calc(100% - 2px);
+      margin-bottom: 5px;
+      margin-left: 2px;
+      outline: 2px solid var(--primary);
+  }
+
+  .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      color: white;
+      cursor: pointer;
+      background: rgba(0,0,0,0.5);
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+  }
+
+  .close-btn:hover {
+      background: rgba(0,0,0,0.8);
+  }
+</style>
+
+<div class="gallery-grid">
+  {{- range .Page.Resources.ByType "image" }}
+    {{- $title := .Title | default .Name -}}
+    {{- /* Extract the newly added description */ -}}
+    {{- $desc := .Params.description | default "" -}}
+    {{- $link := .Params.link | default "" -}}
+    
+    {{- $thumb := .Fill "600x600 webp q75" -}}
+    
+    {{- /* We now inject both data-title and data-desc into the image! */ -}}
+    <img src="{{ $thumb.RelPermalink }}" alt="{{ $title }}" data-title="{{ $title }}" data-desc="{{ $desc }}" data-link="{{ $link }}" data-full="{{ .RelPermalink }}" class="gallery-img" onclick="openLightbox(this)" loading="lazy">
+  {{- end }}
+</div>
+
+<dialog id="lightbox">
+  <div class="lightbox-content">
+    <button class="close-btn" onclick="closeLightbox()" aria-label="Close Lightbox">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>
+    </button>    
+    <img id="lightbox-img" src="" alt="Full size image">
+    <div id="lightbox-desc"></div>
+  </div>
+</dialog>
+
+<script>
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const lightboxDesc = document.getElementById('lightbox-desc');
+
+  function openLightbox(imgElement) {
+      // Load the full-resolution image path saved in data-full
+      lightboxImg.src = imgElement.getAttribute('data-full');
+      
+      let titleText = imgElement.getAttribute('data-title');
+      let descText = imgElement.getAttribute('data-desc');
+      let linkUrl = imgElement.getAttribute('data-link');
+
+      // Start the text block with a bold title
+      let contentHtml = `<span style="font-weight: bold; font-family: Roboto;">${titleText}</span>`;
+
+      // If a description exists, add it on a new line
+      if (descText) {
+          contentHtml += `<br><span style="font-size: 0.9em; font-family: Roboto; opacity: 0.9;">${descText}</span>`;
+      }
+
+      // If a link exists, add it at the very bottom
+      if (linkUrl) {
+          contentHtml += `<br><a href="${linkUrl}" style="color: var(--primary); text-decoration: underline; margin-top: 8px; display: inline-block; font-family: Roboto;">Read the full article</a>`;
+      }
+
+      // Feed everything into the description box
+      lightboxDesc.innerHTML = contentHtml;
+      lightbox.showModal();
+  }
+
+  function closeLightbox() {
+      lightbox.close();
+  }
+
+  lightbox.addEventListener('click', (e) => {
+      const dialogDimensions = lightbox.getBoundingClientRect();
+      if (
+          e.clientX < dialogDimensions.left ||
+          e.clientX > dialogDimensions.right ||
+          e.clientY < dialogDimensions.top ||
+          e.clientY > dialogDimensions.bottom
+      ) {
+          closeLightbox();
+      }
+  });
+</script>

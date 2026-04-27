@@ -1,0 +1,7 @@
+:root {
+    /* Increase the main text/content column from 720px to something wider like 1000px */
+    --main-width: 1000px;
+
+    /* Increase the header and footer width so they still align well with the wider content */
+    --nav-width: 1200px; 
+}
